@@ -1,3 +1,4 @@
+console.log("test 1");
 var ajaxCall = (key, url, prompt) => {
   return new Promise((resolve, reject) => {
     $.ajax({
@@ -31,6 +32,7 @@ var ajaxCall = (key, url, prompt) => {
 const url = "https://api.openai.com/v1";
 
 (function () {
+  console.log("test 1");
   const template = document.createElement("template");
   template.innerHTML = `
       <style>
